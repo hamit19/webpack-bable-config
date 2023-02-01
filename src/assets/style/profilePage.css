@@ -1,0 +1,17 @@
+.profile_title {
+  padding: 1rem;
+  font-size: 3rem;
+  color: gray;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile_wrapper {
+    width: 500px;
+    height: 600px;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    font-family: Arial, Helvetica, sans-serif;
+}
