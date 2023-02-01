@@ -1,4 +1,4 @@
-# webpack-babel
+# Webpack-Babel config
 
 
 <!-- If you wanna install babel for webpack project 

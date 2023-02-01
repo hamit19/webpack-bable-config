@@ -1,5 +1,10 @@
 {
-  "name": "webpack-T",
+  "name": "webpack-babel config",
+  "author": {
+    "name":"Hamid Hassani",
+    "github" :"https://github/hamit19",
+    "website": "https://hamid-hassani-dev.netlify.app"
+  },
   "packageManager": "yarn@3.1.1",
   "scripts": {
     "build": " NODE_ENV=production webpack --mode production ",
