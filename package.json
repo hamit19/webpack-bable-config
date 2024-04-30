@@ -1,15 +1,15 @@
 {
   "name": "webpack-babel config",
   "author": {
-    "name":"Hamid Hassani",
-    "github" :"https://github.com/hamit19",
+    "name": "Hamid Hassani",
+    "github": "https://github.com/hamit19",
     "website": "https://hamid-hassani-dev.netlify.app"
   },
   "packageManager": "yarn@3.1.1",
   "scripts": {
     "build": " NODE_ENV=production webpack --mode production ",
     "dev": " NODE_ENV=development webpack --mode development ",
-    "serve": "webpack serve "
+    "server": "webpack server "
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",

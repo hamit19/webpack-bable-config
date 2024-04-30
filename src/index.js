@@ -1,25 +1,12 @@
-import api from './services/api'
-// import './assets/style/app.css'
+import dividerFn from "./utilities";
 
-import './pages/profile'
-
-alert('bye world!!!!')
-
-
-const apiTest = new api()
-
-const alertMessage = (message) => {
-    alert(message)
+async function callDividerFn(x, y) {
+  try {
+    const result = await dividerFn(x, y);
+    console.log(result);
+  } catch (err) {
+    console.log(err);
+  }
 }
 
-console.log('Wow, it is working! OMG!')
-
-
-document.getElementById('start-game').addEventListener('click', ()=> {
-    alertMessage('Hey the game is about to beginning!')
-    apiTest.post();
-})
-
-
-
-document.getElementById('root').appendChild(document.createTextNode('Hello'))
+callDividerFn(200, 2);

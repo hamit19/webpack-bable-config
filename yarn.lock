@@ -5232,9 +5232,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-T@workspace:.":
+"webpack-babel config@workspace:.":
   version: 0.0.0-use.local
-  resolution: "webpack-T@workspace:."
+  resolution: "webpack-babel config@workspace:."
   dependencies:
     "@babel/core": ^7.20.12
     "@babel/preset-env": ^7.20.2
